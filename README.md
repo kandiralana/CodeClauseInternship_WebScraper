@@ -6,8 +6,8 @@
 - [Overview](#overview)
 - [Usage](#usage)
 - [File Descriptions](#file-descriptions)
-  - [main.py](#mainpy)
-  - [news_web_scraper.py](#news_web_scraperpy)
+    - [main.py](#mainpy)
+    - [news_web_scraper.py](#news_web_scraperpy)
 - [Dependencies](#dependencies)
 - [Disclaimer](#disclaimer)
 
@@ -18,7 +18,9 @@
 
 ## Overview
 
-This Python script (`main.py`) utilizes a news web scraper (`news_web_scraper.py`) to extract and process news information from a specified URL. The web scraper is designed to work with the HTML structure of the Global News website (`https://globalnews.ca/world/`).
+This Python script (`main.py`) utilizes a news web scraper (`news_web_scraper.py`) to extract and process news
+information from a specified URL. The web scraper is designed to work with the HTML structure of the Global News
+website (`https://globalnews.ca/world/`).
 
 ## Usage
 
@@ -43,9 +45,9 @@ This Python script (`main.py`) utilizes a news web scraper (`news_web_scraper.py
 ### main.py
 
 - `main()`: The main function to run the news web scraper.
-  - Creates a `NewsScraper` object for the specified URL.
-  - Scrapes news information from the webpage.
-  - Prints the processed news information.
+    - Creates a `NewsScraper` object for the specified URL.
+    - Scrapes news information from the webpage.
+    - Prints the processed news information.
 
 ### news_web_scraper.py
 
@@ -63,4 +65,6 @@ This Python script (`main.py`) utilizes a news web scraper (`news_web_scraper.py
 
 ## Disclaimer
 
-This script is designed to work with the specific HTML structure of the Global News website as of the last knowledge update in January 2022. Any changes to the website structure may require modifications to the code for proper functionality. Use responsibly and in accordance with the website's terms of service.
+This script is designed to work with the specific HTML structure of the Global News website as of the last knowledge
+update in February 2024. Any changes to the website structure may require modifications to the code for proper
+functionality. Use responsibly and in accordance with the website's terms of service.
